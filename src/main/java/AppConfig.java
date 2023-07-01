@@ -3,7 +3,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
-public class AppConfig {
+public class AppConfig { //TODO пробел
     @Bean(name = "cat")
     @Scope("prototype")
     public Cat getCat() {

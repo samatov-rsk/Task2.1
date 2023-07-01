@@ -1,4 +1,4 @@
-public class Cat {
+public class Cat { //TODO пробел
     private String name;
 
     public String getName() {

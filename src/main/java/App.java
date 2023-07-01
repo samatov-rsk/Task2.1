@@ -2,7 +2,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //TODO читать невозможно
         ApplicationContext applicationContext =
                 new AnnotationConfigApplicationContext(AppConfig.class);
         Cat catBean = (Cat) applicationContext.getBean("cat");
